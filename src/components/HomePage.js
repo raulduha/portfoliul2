@@ -11,7 +11,7 @@ const HomePage = () => {
         </div>
         <h1>Raul Duhalde E.</h1>
         <h2>Web/Mobile Developer</h2>
-        <p>Brief description about yourself and your expertise.</p>
+        <p>Hello, Im a Computer Science student at University, and i have some experience Programming web and mobile apps.</p>
         <div>
           <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>

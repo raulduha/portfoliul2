@@ -8,7 +8,7 @@ const AboutMe = () => {
     <section id="about">
       <div className="about-card">
         <h2>About Me</h2>
-        <p>Write a paragraph or two about yourself, your passions, and your career goals.</p>
+        <p>I like programming and practising sports, very social person and interested in many subjects.</p>
       </div>
     </section>
   );

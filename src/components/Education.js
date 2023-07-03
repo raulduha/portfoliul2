@@ -12,7 +12,7 @@ const Education = () => {
       <div className="education-cards">
         <div className="education-card">
           <div>
-            <h3>University Name</h3>
+            <h3>University of Los Andes, Chile</h3>
             <p>Degree: Bachelor of Science in Computer Science</p>
           </div>
         </div>
