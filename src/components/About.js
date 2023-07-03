@@ -6,8 +6,10 @@ import './About.css';
 const AboutMe = () => {
   return (
     <section id="about">
-      <h2>About Me</h2>
-      <p>Write a paragraph or two about yourself, your passions, and your career goals.</p>
+      <div className="about-card">
+        <h2>About Me</h2>
+        <p>Write a paragraph or two about yourself, your passions, and your career goals.</p>
+      </div>
     </section>
   );
 };

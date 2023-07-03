@@ -1,61 +1,75 @@
-/* Skills.css */
-
 #skills {
-    background: #f1f1f1;
-    padding: 50px;
-    color: #333;
-    text-align: center;
-  }
-  
-  #skills h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  #skills div {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    align-items: center;
-  }
-  
-  #skills div h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  #skills div ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  #skills div ul li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-    cursor: pointer;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    padding: 10px;
-    border-radius: 8px;
-  }
-  
-  #skills div ul li i {
-    margin-right: 10px;
-    color: #333;
-    font-size: 24px;
-    transition: transform 0.3s ease;
-  }
-  
-  #skills div ul li span {
-    font-weight: 500;
-  }
-  
-  #skills div ul li:hover {
-    transform: scale(1.05);
-    background-color: #e0e0e0;
-  }
-  
-  #skills div ul li:hover i {
-    transform: rotate(360deg);
-  }
-  
+  background: #f1f1f1;
+  padding: 50px;
+  color: #333;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#skills div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1 0 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: #e0e0e0;
+}
+
+.card-header {
+  cursor: pointer;
+}
+
+.card-header h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card-content ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.card-content ul li i {
+  margin-right: 10px;
+  color: #333;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.card-content ul li span {
+  font-weight: 500;
+}
+
+.card-content ul li:hover {
+  transform: scale(1.05);
+  background-color: #e0e0e0;
+}
+
+.card-content ul li:hover i {
+  transform: rotate(360deg);
+}

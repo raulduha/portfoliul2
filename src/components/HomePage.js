@@ -9,8 +9,8 @@ const HomePage = () => {
         <div className="profile-picture">
           <img src={PresentationImage} alt="Profile" />
         </div>
-        <h1>Your Name</h1>
-        <h2>Web Developer</h2>
+        <h1>Raul Duhalde E.</h1>
+        <h2>Web/Mobile Developer</h2>
         <p>Brief description about yourself and your expertise.</p>
         <div>
           <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>

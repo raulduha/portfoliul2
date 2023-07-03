@@ -1,9 +1,10 @@
 /* Contact.css */
 
 #contact {
-  background: #f1f1f1;
+  background: rgb(28, 27, 28);
   padding: 50px;
-  color: #333;
+  color: #fff;
+  text-align: center;
 }
 
 #contact h2 {
@@ -11,30 +12,33 @@
   margin-bottom: 20px;
 }
 
-#contact p {
+.contact-info {
+  margin-top: 40px;
+}
+
+.contact-info p {
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-#contact ul {
+.contact-info ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-#contact ul li {
+.contact-info ul li {
   font-size: 18px;
   margin-bottom: 5px;
 }
 
-#contact a {
-  color: #007bff;
+.contact-info a {
+  color: #fff;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
-/* Add hover effect on contact links */
-#contact a:hover {
+.contact-info a:hover {
   text-decoration: underline;
   transform: scale(1.1);
 }

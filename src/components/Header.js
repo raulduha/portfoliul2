@@ -6,6 +6,7 @@ import './Header.css';
 const Header = () => {
   return (
     <header>
+      <div className="logo">RDE</div>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -23,3 +24,4 @@ const Header = () => {
 };
 
 export default Header;
+
