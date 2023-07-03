@@ -1,0 +1,45 @@
+/* Header.css */
+
+header {
+    background: rgb(28, 27, 27);
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* Add relative positioning */
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative; /* Add relative positioning */
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  nav ul li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0); /* Initial scale to 0 */
+    transition: transform 0.3s ease;
+  }
+  
+  nav ul li a:hover::before {
+    transform: scaleX(1); /* Scale to full width on hover */
+  }
+  
+  

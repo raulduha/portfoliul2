@@ -1,0 +1,44 @@
+/* Education.css */
+
+#education {
+    background: #fff;
+    padding: 50px;
+    color: #333;
+  }
+  
+  #education h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #education div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #education div h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #education div p {
+    margin-bottom: 10px;
+  }
+  
+  #education div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #education div ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Add hover effect on certification list items */
+  #education div ul li:hover {
+    background: #e0e0e0;
+    border-radius: 5px;
+  }
+  
